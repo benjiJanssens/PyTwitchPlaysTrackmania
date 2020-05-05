@@ -18,7 +18,7 @@ python twitch_plays_tm.py -p <password> -u <username> [-c <channel>]
 
 * **\<password>** needs to be an OAuth token. You can use [Twitch Chat OAuth Password Generator](https://twitchapps.com/tmi) to generate an OAauth token.
 * **\<username>** and **\<channel>** need to be in lowercase.
-* **\<channel>** is optional. If you don't provide a channel, your own channel will be used.
+* **\<channel>** is optional. If you don't provide a channel, the channel of **\<username>** will be used.
 
 ## Contributing
 

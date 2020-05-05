@@ -21,9 +21,7 @@ def main(argv):
     channel = None
 
     try:
-        opts, args = getopt.getopt(
-            argv, "hp:u:c:", ["password=", "username=", "channel="]
-        )
+        opts, args = getopt.getopt(argv, "hp:u:c:", ["password=", "username=", "channel="])
     except getopt.GetoptError:
         print(usage)
         sys.exit(2)
@@ -40,9 +38,7 @@ def main(argv):
     if not channel:
         channel = username
     if password and username and channel:
-        TWITCH_PLAYS = TwitchPlays(
-            password, username, channel, ACTIONS
-        )
+        TWITCH_PLAYS = TwitchPlays(password, username, channel, ACTIONS)
         TWITCH_PLAYS.run()
     else:
         print(usage)

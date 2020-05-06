@@ -1,6 +1,6 @@
-# TwitchPlaysTrackmania
+# PyTwitchPlaysTrackmania
 
-TwitchPlaysTrackmania is a sample implementation of PyTwitchPlays using Trackmania.
+PyTwitchPlaysTrackmania is a sample implementation of PyTwitchPlays using Trackmania.
 
 ## Installation
 

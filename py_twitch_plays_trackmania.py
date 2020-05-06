@@ -15,7 +15,7 @@ ACTIONS = {
 
 
 def main(argv):
-    usage = "python twitch_plays_tm.py -p <password> -u <username> [-c <channel>]"
+    usage = "python py_twitch_plays_trackmania.py -p <password> -u <username> [-c <channel>]"
     password = None
     username = None
     channel = None
